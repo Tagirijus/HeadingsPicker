@@ -1,0 +1,6 @@
+name: headingspicker
+functions:
+  headingsPicker:
+    path: headingspicker.ts:headingsPicker
+    command:
+      name: "Navigate: Headings Picker"
