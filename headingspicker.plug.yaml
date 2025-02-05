@@ -4,3 +4,4 @@ functions:
     path: headingspicker.ts:headingsPicker
     command:
       name: "Navigate: Headings Picker"
+      key: "Ctrl-r"

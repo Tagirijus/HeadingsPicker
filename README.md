@@ -2,6 +2,8 @@
 
 With this plugin you will get a _picker_ in Silverbullet with which you can select a heading from the active page. By choosing one of those headings the cursor will jump to this position then.
 
+By default I set `Ctrl+r` as the key shortcut for this plugin, since in _Sublime Text_ this also brings up a similar "headings picker".
+
 ## Build
 To build this plug, make sure you have [SilverBullet installed with Deno](https://silverbullet.md/Install/Deno). Then, build the plug with:
 
