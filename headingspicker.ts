@@ -36,5 +36,7 @@ async function getHeadings() {
 export async function headingsPicker() {
   const headings = await getHeadings();
   const choice = await editor.filterBox("Headings Picker", headings);
-  await editor.moveCursor(choice.pos, true);
+  if (choice) {
+    await editor.moveCursor(choice.pos, true);
+  }
 }
