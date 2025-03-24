@@ -15,7 +15,7 @@ async function getHeadings() {
     if (n.type?.startsWith("ATXHeading")) {
       let lvl = +n.type[n.type.length - 1];
       let name = (
-        "_ ".repeat(Math.max(0, lvl - 1))
+        "— ".repeat(Math.max(0, lvl - 1))
         + n.children!.slice(1).map(stripMarkdown).join("").trim()
       );
       headers.push({
